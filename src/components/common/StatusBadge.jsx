@@ -5,7 +5,7 @@ export default function StatusBadge({ status }) {
 
   let styles = 'bg-slate-50 text-slate-600 border-slate-200';
   let label = normStatus;
-
+// 
   if (normStatus === 'Aktif') {
     styles = 'bg-[var(--color-status-aktif-bg)] text-[var(--color-status-aktif-text)] border-[var(--color-status-aktif-border)]';
     label = 'Aktif';
